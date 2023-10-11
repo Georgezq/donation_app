@@ -13,7 +13,7 @@ class _DescargadoPageState extends State<DescargadoPage> {
      return Scaffold(
       body: GestureDetector(
         onTap: (){
-          Navigator.pushNamed(context, '/home-empleado');
+          Navigator.pushNamedAndRemoveUntil(context, '/home-empleado', (route) => false);
         },
         child: Container(
           width: double.infinity,

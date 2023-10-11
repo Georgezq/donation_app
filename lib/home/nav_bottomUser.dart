@@ -34,16 +34,16 @@ class NavBottom extends StatelessWidget {
           GButton(
             icon: Icons.check_circle,
             text: 'Asistencia',
-            iconActiveColor: HexColor("#0A73AC"),
-            textColor: currentIndex == 0 ? HexColor("#0A73AC") : Colors.grey,
+            iconActiveColor: HexColor("0ABE40"),
+            textColor: currentIndex == 0 ? HexColor("0ABE40") : Colors.grey,
             iconColor: Colors.grey,
             onPressed: () {},
           ),         
           GButton(
             icon: Icons.person,
             text: 'Perfil',
-            iconActiveColor: HexColor("#0A73AC"),
-            textColor: currentIndex == 2 ? HexColor("#0A73AC") : Colors.grey,
+            iconActiveColor: HexColor("0ABE40"),
+            textColor: currentIndex == 1 ? HexColor("#0ABE40") : Colors.grey,
             iconColor: Colors.grey,
             onPressed: () {},
           )

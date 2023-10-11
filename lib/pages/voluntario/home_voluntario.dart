@@ -34,6 +34,8 @@ class _HomeState extends State<Home> {
 
     return Scaffold(
       appBar: AppBar(
+        title: Text("Hola, Danna", style: TextStyle(fontSize: 18),),
+        
           backgroundColor: Colors.transparent, // Fondo transparente para que se vea el borde personalizado
           flexibleSpace: Container(
             decoration: BoxDecoration(

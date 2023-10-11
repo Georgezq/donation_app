@@ -32,11 +32,11 @@ List<String> puntosA = [
           decoration:  const BoxDecoration(
             image: DecorationImage(
               image: AssetImage('assets/images/programas_pages.jpeg'), // Ruta de la imagen de fondo
-              fit: BoxFit.cover, // Ajusta la imagen al tamaño de la pantalla
+              fit: BoxFit.fill, // Ajusta la imagen al tamaño de la pantalla
             ),
           ),
           child:  Padding(
-            padding: const EdgeInsets.only(top: 50),
+            padding: const EdgeInsets.only(top: 60),
             child: Column(
                mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,

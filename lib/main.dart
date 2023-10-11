@@ -2,6 +2,7 @@ import 'package:donation_app/pages/empleado/descarga_page.dart';
 import 'package:donation_app/pages/empleado/home_empleado.dart';
 import 'package:donation_app/pages/empleado/reporteAsis_page.dart';
 import 'package:donation_app/pages/empleado/vistaDescarga_page.dart';
+import 'package:donation_app/pages/empleado/voluntarios_page.dart';
 import 'package:donation_app/pages/empleadoLogin_page.dart';
 import 'package:donation_app/pages/firsrt_page.dart';
 import 'package:donation_app/pages/login_page.dart';
@@ -38,6 +39,7 @@ class MyApp extends StatelessWidget {
         '/reporte': (context) => const ReporteAsistenciaPage(),
         '/descarga': (context) => const DescargaPage(),
         '/descargado': (context) => const DescargadoPage(),
+        '/voluntarios': (context) => const VoluntariosPage(),
 
       },
       

@@ -52,7 +52,7 @@ class _EmpleadoPerfilState extends State<EmpleadoPerfil> {
           child: FormHelper.submitButton(
             "CERRAR SESIÓN", fontSize: 18,
              () {
-              Navigator.pushNamedAndRemoveUntil(context, '/login-empleado', (route) => false);
+              Navigator.pushNamedAndRemoveUntil(context, '/rol', (route) => false);
             },
             borderColor: Colors.transparent,
             btnColor: Colors.transparent, // Color del texto del botón

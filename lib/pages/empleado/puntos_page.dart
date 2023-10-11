@@ -16,7 +16,7 @@ class _PuntosPageState extends State<PuntosPage> {
         decoration:  const BoxDecoration(
           image: DecorationImage(
             image: AssetImage('assets/images/puntos.jpeg'), // Ruta de la imagen de fondo
-            fit: BoxFit.fill, // Ajusta la imagen al tamaño de la pantalla
+            fit: BoxFit.cover, // Ajusta la imagen al tamaño de la pantalla
           ),
         ),
         child:  Padding(

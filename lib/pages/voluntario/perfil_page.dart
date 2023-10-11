@@ -17,7 +17,7 @@ class _PerfilPageState extends State<PerfilPage> {
         width: double.infinity,
         decoration:  const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/perfil.jpeg'), // Ruta de la imagen de fondo
+            image: AssetImage('assets/images/perfil.jpeg', ), // Ruta de la imagen de fondo
             fit: BoxFit.cover, // Ajusta la imagen al tamaño de la pantalla
           ),
         ),
@@ -52,7 +52,7 @@ class _PerfilPageState extends State<PerfilPage> {
           child: FormHelper.submitButton(
             "CERRAR SESIÓN", fontSize: 18,
              () {
-              Navigator.pushNamedAndRemoveUntil(context, '/login', (route) => false);
+              Navigator.pushNamedAndRemoveUntil(context, '/rol', (route) => false);
             },
             borderColor: Colors.transparent,
             btnColor: Colors.transparent, // Color del texto del botón

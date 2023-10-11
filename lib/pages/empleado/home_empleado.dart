@@ -36,6 +36,7 @@ class _HomeEmpleadoState extends State<HomeEmpleado> {
 
     return Scaffold(
       appBar: AppBar(
+         title: Text("Hola, Elias", style: TextStyle(fontSize: 18),),
           backgroundColor: Colors.transparent, // Fondo transparente para que se vea el borde personalizado
           flexibleSpace: Container(
             decoration: BoxDecoration(

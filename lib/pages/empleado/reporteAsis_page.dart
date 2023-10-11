@@ -18,6 +18,7 @@ class _ReporteAsistenciaPageState extends State<ReporteAsistenciaPage> {
     });
   }
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,7 +49,7 @@ class _ReporteAsistenciaPageState extends State<ReporteAsistenciaPage> {
   Widget _body(BuildContext context){
     return GestureDetector(
       onTap: (){
-        Navigator.pushNamed(context, '/descarga');
+        Navigator.pushNamed(context, '/voluntarios');
       },
       child: Column(
         children: [

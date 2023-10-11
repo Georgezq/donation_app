@@ -16,14 +16,14 @@ class _RegisterPageState extends State<RegisterPage> {
       body: SafeArea(
         child: Container(
           width: double.infinity,
-          decoration:  const BoxDecoration(
+          decoration:   BoxDecoration(
             image: DecorationImage(
               image: AssetImage('assets/images/register_page.jpeg'), // Ruta de la imagen de fondo
-              fit: BoxFit.cover, // Ajusta la imagen al tamaño de la pantalla
+              fit: BoxFit.fill, // Ajusta la imagen al tamaño de la pantalla
             ),
           ),
           child:  Padding(
-            padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * .75),
+            padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * .70),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -53,6 +53,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 child: FormHelper.submitButton(
                   "Continuar", fontSize: 18,
                    () {
+                       Navigator.pushNamed(context, "/programas");
                   },
                   borderColor: Colors.transparent,
                   btnColor: Colors.transparent,
