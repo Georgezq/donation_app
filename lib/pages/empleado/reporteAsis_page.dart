@@ -71,7 +71,7 @@ class _ReporteAsistenciaPageState extends State<ReporteAsistenciaPage> {
             Image.asset(
               'assets/images/calendar.jpeg', // Ruta de la imagen que deseas mostrar
               width: 350,
-              height: 350,
+              height: 300,
               fit: BoxFit.contain,
             ),
         ],

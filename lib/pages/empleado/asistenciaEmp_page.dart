@@ -54,7 +54,7 @@ class _AsistenciaEmpleadoState extends State<AsistenciaEmpleado> {
           borderRadius: BorderRadius.circular(24),
         ),
         child: FormHelper.submitButton(
-          "INFORME",
+          "REPORTE",
           fontSize: 18,
           () {
             Navigator.pushNamed(context, '/reporte');
